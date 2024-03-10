@@ -164,3 +164,31 @@ li {
     font-weight: bold;
     align-self: flex-end;
 }
+
+/* css for section 4 */
+
+.container.four {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.four .cta-container {
+    flex: 1;
+    justify-content: space-between;
+    padding: 50px 100px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(59,130,246,255);
+}
+
+.cta-container .cta-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.four button {
+    border: 2px solid white;
+}
+
