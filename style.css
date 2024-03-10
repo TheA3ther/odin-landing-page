@@ -47,6 +47,18 @@ li {
     display: flex;
 }
 
+/* css for button */
+
+.signup-button button {
+    color: white;
+    background-color: rgba(59,130,246,255);
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+}
+
 /* css for section 1 */
 
 .container.one {
@@ -58,13 +70,23 @@ li {
 }
 .one .hero-section {
     flex-direction: column;
+    gap: 10px;
+    justify-content: flex-start;
 }
 
 .one .hero-text{
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
+}
 
+.one .hero-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.one .signup-button {
+    margin-top: auto;
 }
 
 .one .image {
