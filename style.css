@@ -192,3 +192,14 @@ li {
     border: 2px solid white;
 }
 
+/* css for footer */
+
+.footer {
+    color: white;
+    display: flex;
+    background-color: rgba(31,41,55,255);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+}
